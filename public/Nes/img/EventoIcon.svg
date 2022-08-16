@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83" height="83" viewBox="0 0 83 83">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: rgba(255,255,255,0.22);
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.053" y1="0.049" x2="0.918" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.588"/>
+      <stop offset="1" stop-color="#bababa" stop-opacity="0.369"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.935" x2="0.056" y2="1.056" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb6d81"/>
+      <stop offset="1" stop-color="#f92e4b"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_2455" data-name="Grupo 2455" transform="translate(-85 -35)">
+    <g id="Rectángulo_234" data-name="Rectángulo 234" class="cls-1" transform="translate(85 35)">
+      <rect class="cls-4" width="83" height="83" rx="24"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="82" height="82" rx="23.5"/>
+    </g>
+    <rect id="Rectángulo_235" data-name="Rectángulo 235" class="cls-2" width="64" height="64" rx="20" transform="translate(95 45)"/>
+    <path id="Trazado_1858" data-name="Trazado 1858" class="cls-3" d="M30.648,6.072V3H3V6.072L15.288,19.9v7.68H7.608v3.072H26.04V27.576H18.36V19.9ZM9.8,9.144,7.086,6.072H26.578L23.844,9.144Z" transform="translate(109.702 60.176)"/>
+  </g>
+</svg>
