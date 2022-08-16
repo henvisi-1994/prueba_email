@@ -28,6 +28,12 @@
             padding-bottom: 5%;
         }
 
+        .contenedor-redes-sociales {
+            align-items: center !important;
+            justify-content: center !important;
+            margin-top: 56px !important;
+        }
+
         .text-bienvenida {
             color: #333;
             font-size: 20px;
@@ -83,6 +89,23 @@
             font-size: 14px !important;
         }
 
+        .logo-redes-sociales {
+            display: flex !important;
+            justify-content: center !important;
+            margin-left: 14rem;
+        }
+
+        .logo-rede-social {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 32px !important;
+            height: 32px !important;
+            color: #fff !important;
+            border-radius: 9999px !important;
+            background-color: #F92E4B !important;
+        }
+
         .parrafo-redes-sociales {
             font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif !important;
             font-size: 18px;
@@ -91,6 +114,38 @@
             color: #F92E4B !important;
             text-align: center;
             line-height: 25px;
+        }
+
+        .imagenes {
+            border-radius: 4px !important;
+            width: 100% !important;
+            height: 320px !important;
+            margin-top: 40px !important;
+        }
+
+        .galeria-imagenes {
+            margin-top: 96px !important;
+
+        }
+
+        .galeria-imagen {
+            object-fit: cover !important;
+            border-radius: 4px !important;
+            margin-bottom: 24px !important;
+
+        }
+
+        .galeria-imagenes table {
+            padding-left: 15%;
+        }
+
+        .imagen-galeria {
+            border-radius: 4px !important;
+        }
+
+        .contenedor-logos-redes-sociales {
+            display: flex !important;
+            margin-top: 8px !important;
         }
 
         .fb {
@@ -122,6 +177,12 @@
             margin-left: 38%;
         }
 
+        .contenedor-final {
+            padding-top: 24px !important;
+            align-items: center !important;
+            flex-direction: column !important;
+        }
+
         .copyright {
             padding: 0em;
             text-align: center;
@@ -137,8 +198,10 @@
 <body class="m-0 p-0 w-full word-break-break-word -webkit-font-smoothing-antialiased bg-slate-50">
     <div role="article" aria-roledescription="email" aria-label="Bienvenido a Nes+" lang="en">
 
-        <table border="0" cellspacing="0" cellpadding="0" >
-            <tr><td colspan="3" class="margenes-y" align="center"></td></tr>
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td colspan="3" class="margenes-y" align="center"></td>
+            </tr>
             <tr>
                 <td class=" margenes"></td>
                 <td class="contenedor">
@@ -177,8 +240,7 @@
 
                                                         <div>
                                                             <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZyaWVuZHNoaXB8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60"
-                                                                alt=""
-                                                                style="     border-radius: 4px !important; width: 100% !important; height: 320px !important; margin-top: 40px !important;">
+                                                                alt="" class="imagenes">
                                                             <h3 class="titulos">
                                                                 Diviértete en nuestros mejores eventos</h3>
                                                             <p class="parrafo">
@@ -193,10 +255,7 @@
                                                         </div>
 
                                                         <div>
-                                                            <img style="  border-radius: 4px !important;
-                                                            width: 100% !important;
-                                                            height: 320px !important;
-                                                            margin-top: 40px !important;"
+                                                            <img class="imagenes"
                                                                 src="https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dHJhdmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                                                                 alt="">
                                                             <h3 class="titulos">
@@ -211,27 +270,29 @@
                                                             </p>
                                                         </div>
 
-                                                        <div style="margin-top: 96px !important;">
+                                                        <div class="galeria-imagenes">
                                                             <table border="0">
                                                                 <tr>
                                                                     <td>
-                                                                        <img style="
-                                                                    border-radius: 4px !important; width: 160px !important;     height: 160px !important;     margin-bottom: 24px !important;"
+                                                                        <img width="160" height="160"
+                                                                            class="galeria-imagen"
+                                                                            style="margin-bottom: 24px !important;"
                                                                             src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZnJpZW5kc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
                                                                             alt="">
                                                                     </td>
                                                                     <td rowspan="2">
-                                                                        <img style="
-                                                                    border-radius: 4px !important;     width: 224px !important;       height: 288px !important;"
+                                                                        <img class="galeria-imagen" width="224"
+                                                                            height="228"
                                                                             src="https://images.unsplash.com/photo-1511311219972-4df5faba0fd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGZyaWVuZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60  "
                                                                             alt="">
                                                                     </td>
 
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>
-                                                                        <img style="
-                                                                    border-radius: 4px !important; width: 160px !important;    height: 192px !important;     margin-bottom: 24px !important;"
+                                                                    <td style="padding-right: 12px !important;">
+                                                                        <img width="160" height="192"
+                                                                        class="galeria-imagen"
+                                                                            style="margin-bottom: 24px !important;"
                                                                             src="https://images.unsplash.com/photo-1535268244390-8b989b92d2bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZyaWVuZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
                                                                             alt="">
                                                                     </td>
@@ -250,8 +311,7 @@
                                                             </p>
                                                         </div>
 
-                                                        <div
-                                                            style="padding-top: 24px !important; align-items: center !important; flex-direction: column !important;">
+                                                        <div class="contenedor-final">
                                                             <p class="parrafo-final">¡Ya casi estás listo para empezar a
                                                                 disfrutar
                                                                 de Nes+! <br>
@@ -263,27 +323,24 @@
                                                                 Verifica tu correo electrónico </button>
                                                         </div>
 
-                                                        <div class="flex items-center justify-center flex-col mt-14">
+                                                        <div class="contenedor-redes-sociales">
                                                             <p class="parrafo-redes-sociales">
                                                                 ¡Siguenos y mantente
                                                                 informado en nuestras Redes Sociales!
                                                             </p>
-                                                            <div
-                                                                style="display: flex !important;  margin-top: 8px !important;">
-                                                                <div
-                                                                    style="display: flex !important;justify-content: center !important; margin-left: 14rem;">
+                                                            <div class="contenedor-logos-redes-sociales">
+                                                                <div class="logo-redes-sociales">
                                                                     <a href="#" title="Facebook"
-                                                                        class="flex items-center justify-center w-8 h-8 text-white rounded-full sm-w-9 sm-h-9 bg-primary-500">
+                                                                        class="logo-red-social">
                                                                         <img src="{{ asset('Nes/img/email/fb.svg') }}"
                                                                             alt=" " width="16" height="16" class="fb">
                                                                     </a>
-                                                                    <a href="#" title="Twitter"
-                                                                        class="flex items-center justify-center w-8 h-8 text-white rounded-full sm-w-9 sm-h-9 bg-primary-500">
+                                                                    <a href="#" title="Twitter" class="logo-red-social">
                                                                         <img src="{{ asset('Nes/img/email/tw.svg') }}"
                                                                             alt=" " width="16" height="16" class="tw">
                                                                     </a>
                                                                     <a href="#" title="Instagram"
-                                                                        class="flex items-center justify-center w-8 h-8 text-white rounded-full sm-w-9 sm-h-9 bg-primary-500">
+                                                                        class="logo-red-social">
                                                                         <img src="{{ asset('Nes/img/email/ig.svg') }}"
                                                                             alt=" " width="16" height="16" class="ig">
                                                                     </a>
@@ -311,7 +368,9 @@
                 <td class="margenes"></td>
 
             </tr>
-            <tr><td colspan="3" class="margenes-y" align="center"></td></tr>
+            <tr>
+                <td colspan="3" class="margenes-y" align="center"></td>
+            </tr>
         </table>
     </div>
 </body>
